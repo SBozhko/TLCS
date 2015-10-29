@@ -20,16 +20,9 @@ import by.bsuir.tlcs.enumumeration.TrafficLightColor;
  */
 public class CrossingFactory {
 	/**
-	 * Static method for creation new crossing.
-	 * 
-	 * @param numberOfLanes
-	 * @param conflictMatrix
-	 * @param minTLTime
-	 * @param maxTLTime
-	 * @return crossing
+	 * Static method for creation new crossing
 	 */
-	public static Crossing getInstance(int numberOfLanes,
-			boolean[][] conflictMatrix, int minTLTime, int maxTLTime) {
+	public static Crossing getInstance(int numberOfLanes, boolean[][] conflictMatrix, int minTLTime, int maxTLTime) {
 
 		List<Lane> lanes = new ArrayList<Lane>();
 		for (int i = 0; i < numberOfLanes; i++) {
