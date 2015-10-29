@@ -55,7 +55,6 @@ public class CrossingFactory {
 
 		Crossing crossing = new Crossing(lanes, crossingController);
 
-		System.out.println("ololo");
 		return crossing;
 	}
 }
