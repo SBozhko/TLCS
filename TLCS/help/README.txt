@@ -1,2 +1,3 @@
-	При  портировании проекта могут удалиться картинки. Если это произошло, скопируйте в папку \TLCS\bin содержимое папки Pictures (прилагается).
-	Have Fun!
+During deployment several pictures might be deleted accidentally.
+If this happens just copy Pictures/ folder into TLCS/bin.
+Have Fun!
